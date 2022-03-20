@@ -1,0 +1,118 @@
+html {
+  height: 100%;
+}
+
+body {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+  margin: 0;
+}
+
+img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: -1;
+  opacity: 90%;
+}
+
+li {
+  color: white;
+  font-size: 30px;
+}
+#weather-div {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+#weather-div span {
+  font-size: 20px;
+}
+
+#first-div {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 100px;
+}
+
+#second-div {
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#third-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+span {
+  color: white;
+}
+
+label {
+  color: white;
+}
+
+p {
+  margin: 0px;
+}
+
+#clock {
+  font-size: 200px;
+}
+
+#login-label {
+  font-size: 50px;
+}
+
+#hello-message {
+  font-size: 50px;
+}
+
+#today-todo {
+  font-size: 30px;
+}
+
+input {
+  background-color: transparent;
+  border-color: transparent;
+  height: 50px;
+  font-size: 30px;
+  color: white;
+}
+
+input::placeholder {
+  font-size: 30px;
+  color: white;
+}
+
+#quote {
+  font-size: 20px;
+  color: azure;
+}
+
+#author {
+  font-size: 15px;
+  color: azure;
+}
+
+.hidden {
+  display: none;
+}

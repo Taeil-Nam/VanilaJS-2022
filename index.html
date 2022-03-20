@@ -1,0 +1,49 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="src/styles/styles.css" rel="stylesheet" />
+    <title>Vanila JS</title>
+  </head>
+  <body>
+    <div id="weather-div">
+      <span id="weather"></span>
+      <span id="temperature"></span>
+      <span id="city"></span>
+    </div>
+    <div id="first-div">
+      <span id="clock"></span>
+      <form id="login-form" class="hidden">
+        <label id="login-label">What is your name?</label><br />
+        <input id="login-input" placeholder="___________________________" />
+      </form>
+      <span id="hello-message" class="hidden"></span>
+    </div>
+    <div id="second-div">
+      <span id="today-todo" class="hidden"
+        >What is your main focus for today?</span
+      >
+      <form id="todo-form">
+        <input
+          id="todo"
+          class="hidden"
+          type="text"
+          required
+          placeholder="_____________________________"
+        />
+      </form>
+      <ul id="todo-list"></ul>
+    </div>
+    <div id="third-div">
+      <span id="quote"></span>
+      <span id="author"></span>
+    </div>
+    <script src="src/scripts/greetings.js"></script>
+    <script src="src/scripts/time.js"></script>
+    <script src="src/scripts/quotes.js"></script>
+    <script src="src/scripts/background.js"></script>
+    <script src="src/scripts/todo.js"></script>
+    <script src="src/scripts/weather.js"></script>
+  </body>
+</html>
